@@ -1,0 +1,155 @@
+[{
+    "id": "root",
+    "name": "internet",
+    "oid": "0.1.2.1.3",
+    "mib": "SNMPv2-SMI",
+    "syntax": "",
+    "access": "",
+    "status": "",
+    "children": [
+      {
+        "id": "1",
+        "name": "mgmt",
+        "oid": "0.1.2.1.3.4",
+        "mib": "SNMPv2-SMI",
+        "syntax": "",
+        "access": "",
+        "status": "",
+        "children": [
+          {
+            "id": "1.1",
+            "name": "mib-2",
+            "oid": "0.1.2.1.3.5",
+            "mib": "SNMPv2-SMI",
+            "syntax": "",
+            "access": "",
+            "status": "",
+            "children": [
+              {
+                "id": "1.1.2",
+                "name": "system",
+                "oid": "0.1.2.1.3.6",
+                "mib": "SNMPv2-SMI",
+                "syntax": "",
+                "access": "",
+                "status": ""
+              }
+            ]
+          },
+          {
+            "id": "1.2",
+            "name": "interfaces",
+            "oid": "0.1.2.1.3.7",
+            "mib": "SNMPv2-SMI",
+            "syntax": "",
+            "access": "",
+            "status": ""
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "private",
+        "oid": "0.1.2.1.3.8",
+        "mib": "SNMPv2-SMI",
+        "syntax": "",
+        "access": "",
+        "status": "",
+        "children": [
+          {
+            "id": "2.1",
+            "name": "enterprises",
+            "oid": "0.1.2.1.3.9",
+            "mib": "SNMPv2-SMI",
+            "syntax": "",
+            "access": "",
+            "status": "",
+            "children": [
+              {
+                "id": "2.1.2",
+                "name": "atop",
+                "oid": "0.1.2.1.3.10",
+                "mib": "SNMPv2-SMI",
+                "syntax": "",
+                "access": "",
+                "status": "",
+                "children": [
+                  {
+                    "id": "2.1.2.1",
+                    "name": "products",
+                    "oid": "0.1.2.1.3.11",
+                    "mib": "SNMPv2-SMI",
+                    "syntax": "",
+                    "access": "",
+                    "status": "",
+                    "children": [
+                      {
+                        "id": "2.1.2.3.1",
+                        "name": "managedSwitch",
+                        "oid": "0.1.2.1.3.11",
+                        "mib": "SNMPv2-SMI",
+                        "syntax": "",
+                        "access": "",
+                        "status": "",
+                        "children": [
+                          {
+                            "id": "2.1.2.3.1.1",
+                            "name": " ehg750x",
+                            "oid": "0.1.2.1.3.12",
+                            "mib": "SNMPv2-SMI",
+                            "syntax": "",
+                            "access": "",
+                            "status": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "snmpV2",
+        "oid": "0.1.2.1.3.8",
+        "mib": "SNMPv2-SMI",
+        "syntax": "",
+        "access": "",
+        "status": "",
+        "children": [
+          {
+            "id": "3.1",
+            "name": "snmpModules",
+            "oid": "0.1.2.1.3.13",
+            "mib": "SNMPv2-SMI",
+            "syntax": "",
+            "access": "",
+            "status": "",
+            "children": [
+              {
+                "id": "3.1.1",
+                "name": "snmpMIB",
+                "oid": "0.1.2.1.3.14",
+                "mib": "SNMPv2-SMI",
+                "syntax": "",
+                "access": "",
+                "status": ""
+              },
+              {
+                "id": "3.1.2",
+                "name": "snmpFrameworkMIB",
+                "oid": "0.1.2.1.3.15",
+                "mib": "SNMPv2-SMI",
+                "syntax": "",
+                "access": "",
+                "status": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,54 @@
+[
+    {
+        "name": "",
+        "deviceType": "snmp/gwd",
+        "id": "60f2d4cc-6f22-4702-bacc-1cd26bade276",
+        "owner": "",
+        "model": "EHG75088PoE",
+        "location": {
+            "path": ""
+        },
+        "ipAddress": "192.168.13.221",
+        "macAddress": "00-60-E9-27-E3-39",
+        "hostName": "atop.com",
+        "firmwareInformation": {
+            "kernel": "70.09",
+            "ap": "70.09"
+        },
+        "createdAt": "2022-06-23 09:51:39",
+        "lastSeen": "2022-06-23 09:51:53",
+        "lastMissing": "2022-06-23 09:51:39",
+        "lastRecovered": "2022-06-23 09:51:39",
+        "supportProtocols": [
+            "snmp"
+        ],
+        "more": {}
+        
+    },
+    {
+        "name": "",
+        "deviceType": "snmp",
+        "id": "60f2d4cc-6f22-4702-bacc-1cd26bade277",
+        "owner": "",
+        "model": "EHG75088PoE-ak",
+        "location": {
+            "path": ""
+        },
+        "ipAddress": "192.168.13.221",
+        "macAddress": "00-60-E9-27-E3-38",
+        "hostName": "atop.com",
+        "firmwareInformation": {
+            "kernel": "70.09",
+            "ap": "70.09"
+        },
+        "createdAt": "2022-06-24 09:51:39",
+        "lastSeen": "2022-06-27 09:51:53",
+        "lastMissing": "2022-06-25 09:51:39",
+        "lastRecovered": "2022-06-27 09:51:39",
+        "supportProtocols": [
+            "snmp"
+        ],
+        "more": {}
+        
+    }
+]
